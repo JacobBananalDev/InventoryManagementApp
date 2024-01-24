@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagementApp", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagementApp.Data", "InventoryMangementApp.Data\InventoryManagementApp.Data.csproj", "{176E114B-0DF0-4F6A-8A33-09DD9CE51613}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagementApp.UIControls", "InventoryManagementApp.UIControls\InventoryManagementApp.UIControls.csproj", "{18A1F9C8-0760-46CA-9C08-F6F5CBDD1B77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{176E114B-0DF0-4F6A-8A33-09DD9CE51613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{176E114B-0DF0-4F6A-8A33-09DD9CE51613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{176E114B-0DF0-4F6A-8A33-09DD9CE51613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A1F9C8-0760-46CA-9C08-F6F5CBDD1B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A1F9C8-0760-46CA-9C08-F6F5CBDD1B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A1F9C8-0760-46CA-9C08-F6F5CBDD1B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A1F9C8-0760-46CA-9C08-F6F5CBDD1B77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
