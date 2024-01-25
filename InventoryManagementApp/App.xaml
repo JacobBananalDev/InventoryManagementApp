@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:InventoryManagementApp"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/InventoryManagementApp.UIControls;component/InventoryManagementApp.UIControls.Themes.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
