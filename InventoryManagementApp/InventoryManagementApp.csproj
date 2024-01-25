@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryManagementApp.UIControls\InventoryManagementApp.UIControls.csproj">
+      <Project>{18a1f9c8-0760-46ca-9c08-f6f5cbdd1b77}</Project>
+      <Name>InventoryManagementApp.UIControls</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
