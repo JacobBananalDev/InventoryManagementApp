@@ -26,5 +26,10 @@ namespace InventoryMangementApp.Data.QueryInventoryManagementSQL
         {
 
         }
+
+        public void AddUser(string username, string password, string firstName, string lastName)
+        {
+
+        }
     }
 }

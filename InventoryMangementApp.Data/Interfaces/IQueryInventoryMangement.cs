@@ -8,6 +8,7 @@ namespace InventoryMangementApp.Data.Interfaces
 {
     public interface IQueryInventoryMangement
     {
-
+        void AddUser(string username, string password, string firstName, string lastName);
+        
     }
 }
