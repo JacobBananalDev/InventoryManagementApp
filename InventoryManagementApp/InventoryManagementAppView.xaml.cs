@@ -19,10 +19,10 @@ namespace InventoryManagementApp
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class InventoryManagementView : Window
+    public partial class InventoryManagementAppView : Window
     {
         private InventoryManagementViewModel InventoryManagementVM => InventoryManagementViewModel.Instance;
-        public InventoryManagementView()
+        public InventoryManagementAppView()
         {
             InitializeComponent();
             DataContext = InventoryManagementVM;

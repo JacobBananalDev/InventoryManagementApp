@@ -60,7 +60,7 @@
     <Compile Include="Views\Login\InventoryManagementLoginView.xaml.cs">
       <DependentUpon>InventoryManagementLoginView.xaml</DependentUpon>
     </Compile>
-    <Page Include="InventoryManagementView.xaml">
+    <Page Include="InventoryManagementAppView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -70,8 +70,8 @@
     </Compile>
     <Compile Include="Infrastructures\RelayCommand.cs" />
     <Compile Include="Infrastructures\ViewModelBase.cs" />
-    <Compile Include="InventoryManagementView.xaml.cs">
-      <DependentUpon>InventoryManagementView.xaml</DependentUpon>
+    <Compile Include="InventoryManagementAppView.xaml.cs">
+      <DependentUpon>InventoryManagementAppView.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\Login\InventoryManagementLoginView.xaml">
@@ -109,6 +109,10 @@
     <ProjectReference Include="..\InventoryManagementApp.UIControls\InventoryManagementApp.UIControls.csproj">
       <Project>{18a1f9c8-0760-46ca-9c08-f6f5cbdd1b77}</Project>
       <Name>InventoryManagementApp.UIControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InventoryMangementApp.Data\InventoryManagementApp.Data.csproj">
+      <Project>{176e114b-0df0-4f6a-8a33-09dd9ce51613}</Project>
+      <Name>InventoryManagementApp.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
