@@ -55,7 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainWindow.xaml">
+    <Compile Include="ViewModels\InventoryManagementViewModel.cs" />
+    <Compile Include="ViewModels\Login\InventoryManagementLoginViewModel.cs" />
+    <Compile Include="Views\Login\InventoryManagementLoginView.xaml.cs">
+      <DependentUpon>InventoryManagementLoginView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="InventoryManagementView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -65,10 +70,14 @@
     </Compile>
     <Compile Include="Infrastructures\RelayCommand.cs" />
     <Compile Include="Infrastructures\ViewModelBase.cs" />
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="InventoryManagementView.xaml.cs">
+      <DependentUpon>InventoryManagementView.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\Login\InventoryManagementLoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -102,5 +111,6 @@
       <Name>InventoryManagementApp.UIControls</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

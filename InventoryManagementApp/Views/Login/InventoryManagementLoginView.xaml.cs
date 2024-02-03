@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace InventoryManagementApp
+namespace InventoryManagementApp.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for InventoryManagementLoginView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class InventoryManagementLoginView : UserControl
     {
-        public MainWindow()
+        public InventoryManagementLoginView()
         {
             InitializeComponent();
         }
